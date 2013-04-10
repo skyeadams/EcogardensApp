@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.robertfraher.responsive-application"
+        id        = "com.skyeadams.ecogardensapp"
         version   = "2.0.0">
-    <name>Responsive Application</name>
+    <name>Ecogardens App</name>
 
     <description>
-        Responsive Application sample application.
+        Ecogardens Responsive Application.
     </description>
 
-    <author href="http://phonegap.com" email="support@phonegap.com">
-        ProfessorRobertFraher
+    <author href="http://skyeadams.com" email="adamssk@my.uwstout.edu">
+        skyeadams
     </author>
 
     <feature name="http://api.phonegap.com/1.0/device" />
