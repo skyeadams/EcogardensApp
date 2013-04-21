@@ -1,173 +1,167 @@
 @charset "UTF-8";
 /* CSS Document */
-@media only screen and (min-width: 320px) and (max-width: 479px){
-
-
-body{
-		background-image:url(../image/background-portrait.png);
-		background-repeat:no-repeat;
-		background-size:100%;
-	}
-	
-	#topborder{
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+body {
+	height: 480px;
+	width: 320px;
+	background-image:url(../image/background-portrait.png);
+	background-repeat:no-repeat;
+}
+#topborder {
 	position: fixed;
-	float: left;	
+	float: left;
 	width: 320px;
 	height: 35px;
 }
-#topborder img{
+#topborder img {
 	position: fixed;
-	float: left;	
+	float: left;
 	width: 320px;
 	height: 35px;
 }
-
-#bottomborder{	
+#bottomborder {
 	position: fixed;
 	width: 320px;
 	height: 35px;
-	top: 335px;
+	top: 445px;
 }
-#bottomborder img{	
+#bottomborder img {
 	width: 320px;
 	height: 35px;
 }
-
-
-#prev{
+#prev {
 	position: fixed;
-	top: 5px;	
+	top: 5px;
 	left: 70px;
 }
-#prev img{
-	height: 20px;	
+#prev img {
+	height: 20px;
 }
-#next{
+#next {
 	position: fixed;
-	top: 5px;	
+	top: 5px;
 	left: 210px;
 }
-#next img{
-	height: 20px;	
+#next img {
+	height: 20px;
 }
-
-
-
-.navlinks{
+.navlinks {
 	position:fixed;
 	float: left;
-	top: 340px;
+	top: 450px;
 	z-index: 1001;
 }
-
-.navlinks a img{
+.navlinks a img {
 	height: 25px;
 	width: 25px;
 }
-
-#home{
+#home {
 	left: 100px;
 }
-
-#kits{
+#kits {
 	left: 150px;
-	
 }
-
-#contact{
+#contact {
 	left: 200px;
-	
 }
-
-
-
-
-.nav{
+.nav {
 	position: fixed;
 	background-color:#000000;
 	opacity: 0.8;
 	width: 260px;
 	height: 260px;
-	margin-left: 30px;	
-	margin-top:110px;
+	margin-left: 30px;
+	margin-top:220px;
 	z-index:1000;
 }
-	
-.nav a{
+.nav a {
 	opacity: 1;
 	line-height: 30px;
 	color:#FFFFFF;
 	font-size:20px;
 	text-decoration:none;
 }
-
-.nav ul{
+.nav ul {
 	margin-top: 20px;
-	text-align:center;	
+	text-align:center;
 }
+#slider {
+	width:5000px;
+}
+.bounding {
+	width: 320px;
+	height: 360px;
+	float: left;
+}
+.header {
+	color:white;
+	float: left;
+	position:absolute;
+	text-align:center;
+	margin-left: 130px;
+	margin-top: 10px;
+}
+#slide1 {
+	width: 320px;
+	height: 360px;
+}
+#slide1 img {
+	position:absolute;
+	float: left;
+	margin-left:18%;
+	margin-top: 20%;
+}
+#slide1content {
+	position:absolute;
+	float: left;
+	left:60px;
+	margin: auto;
+}
+#socialnetworking {
+	position:absolute;
+	float: left;
+	top: 30px;
+	left: 0px;
+	display:block;
+}
+#socialnetworking img {
+	margin-top: 30px;
+	width: 190px;
+}
+#ecogardenslink {
+	position: absolute;
+	top: 370px;
+	left: 15px
+}
+
+
+
+
+#contact-form{
+	position: absolute;
+	top: 180px;	
+	color: white;
+}
+
+input{
+	background-color:#000;
+	width: 200px;
+	height: 20px;
+	color:#FFFFFF;
+	border: none;	
+	padding:5px;
+	margin-bottom:10px;
 	
+}
+
+textarea{
+	border: none;
+	width: 200px;
+	padding: 5px;
+	background-color:#000000;
+	color:#FFFFFF;	
 	
-	
-	
-	#slider{
-		width:5000px;	
-	}
-	
-	.bounding{
-		width: 320px;
-		height: 360px;
-		float: left;
-			
-	}
-	
-	
-	
-	.header{
-		color:white;
-		float: left;
-		position:absolute;
-		text-align:center;
-		margin-left: 130px;
-		margin-top: 10px;
-	}	
-	
-	
-	#slide1{
-		width: 320px;
-		height: 360px;	
-	}
-	
-	#slide1 img{
-		position:absolute;
-		float: left;
-		margin-left:18%;
-		margin-top: 20%;
-	}
-	
-	#slide1content{
-		background-color:#3F3;
-		position:absolute;
-		float: left;	
-		left:18%
-		
-	}
-	
-	#socialnetworking{
-		position:absolute;
-		float: left;
-		top: 30px;
-		left: 30px;
-		display:block;	
-	}
-	#socialnetworking img{
-		margin-top: 20px;
-	}	
-	
-	#ecogardenslink{
-		position: absolute;
-		top: 300px;
-		left: 20px	
-	}
-	
-	
+}
+
+
 }
