@@ -1,7 +1,7 @@
 @media only screen and (max-width: 479px){
 
 body{
-	height: 480px;
+	height: 460px;
 	width: 320px;
 	background-image:url(../image/background-portrait.png);
 	background-repeat:no-repeat;	
@@ -9,12 +9,14 @@ body{
 
 #topborder{
 	position: fixed;
+	top:0px;
 	float: left;	
 	width: 320px;
 	height: 35px;
 }
 #topborder img{
 	position: fixed;
+	top: 0px;
 	float: left;	
 	width: 320px;
 	height: 35px;
@@ -24,7 +26,7 @@ body{
 	position: fixed;
 	width: 320px;
 	height: 35px;
-	top: 445px;
+	top: 425px;
 }
 #bottomborder img{	
 	width: 320px;
@@ -54,7 +56,7 @@ body{
 .navlinks{
 	position:fixed;
 	float: left;
-	top: 450px;
+	top: 430px;
 	z-index: 1001;
 }
 
@@ -87,7 +89,7 @@ body{
 	width: 260px;
 	height: 260px;
 	margin-left: 30px;	
-	margin-top:220px;
+	margin-top:200px;
 	z-index:1000;
 }
 	
@@ -126,7 +128,7 @@ body{
 .swipe img{
 	height: 53px;
 	width: 220px;
-	margin-top: 10px;
+	margin-top: 5px;
 }
 
 .swipe h2{
