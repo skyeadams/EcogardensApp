@@ -23,7 +23,7 @@ body {
 	position: fixed;
 	width: 320px;
 	height: 35px;
-	top: 445px;
+	top: 440px;
 }
 #bottomborder img {
 	width: 320px;
@@ -48,7 +48,7 @@ body {
 .navlinks {
 	position:fixed;
 	float: left;
-	top: 450px;
+	top: 445px;
 	z-index: 1001;
 }
 .navlinks a img {
@@ -82,7 +82,7 @@ body {
 	text-decoration:none;
 }
 .nav ul {
-	margin-top: 20px;
+	margin-top: 15px;
 	text-align:center;
 }
 #slider {
