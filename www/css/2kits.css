@@ -119,16 +119,16 @@ body{
 	font-family: 'hagin_caps_mediumregular';
 	position: fixed;
 	background-color:#000000;
-	opacity: 0.8;
+	opacity: 0;
 	width: 260px;
 	height: 260px;
 	margin-left: 30px;	
-	margin-top:200px;
+	margin-top:500px;
 	z-index:1000;
 }
 	
 .nav a{
-	opacity: 1;
+	/*opacity: 1;*/
 	line-height: 30px;
 	color:#FFFFFF;
 	font-size:20px;
@@ -136,7 +136,7 @@ body{
 }
 
 .nav ul{
-	margin-top: 20px;
+	/*margin-top: 20px;*/
 	text-align:center;	
 }
 	
@@ -160,8 +160,8 @@ body{
 }
 
 .swipe img{
-	height: 53px;
-	width: 300px;
+	height: 55px;
+	width: 270px;
 	margin-top: 5px;
 }
 
