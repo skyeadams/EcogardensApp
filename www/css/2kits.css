@@ -180,9 +180,46 @@ body{
 
 
 #slider4{
-	height: 440px;
+	height: 420px;
+	margin-top: 10px;
 }
 
+#slide1 h2{ /*temperate*/
+	position: absolute;
+	margin-top: -30px;	
+	margin-bottom: 15px;
+	margin-left:107px;	
+}
+#slide2 h2{ /*mountain*/
+	position: absolute;
+	margin-top: -30px;	
+	margin-bottom: 15px;
+	margin-left:113px;	
+}
+#slide3 h2{ /*subhumid*/
+	position: absolute;
+	margin-top: -30px;	
+	margin-bottom: 15px;
+	margin-left:108px;	
+}
+#slide4 h2{/*coastal*/
+	position: absolute;
+	margin-top: -30px;	
+	margin-bottom: 15px;
+	margin-left:120px;	
+}
+#slide5 h2{/*tropical*/
+	position: absolute;
+	margin-top: -30px;	
+	margin-bottom: 15px;
+	margin-left:115px;	
+}
+#slide6 h2{/*tdesert*/
+	position: absolute;
+	margin-top: -30px;	
+	margin-bottom: 15px;
+	margin-left:120px;	
+}
 
 /*KITS*/
 
