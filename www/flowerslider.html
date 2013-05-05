@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Flower Slider</title>
+
+
+
+<link href="css/reset.css" rel="stylesheet" type="text/css" />
+<link href="css/flowersstyle.css" rel="stylesheet" type="text/css" />
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script src="js/swipe.js"></script>
+
+
+
+
+
+</head>
+
+
+
+
+<body>
+
+
+
+
+<div class="navlinks" id="home"><a href="index.html"><img src="image/home.png" /></a></div>
+<div class="navlinks" id="kits"><a href="#"><img src="image/kits.png" /></a></div>
+<div class="navlinks" id="contact"><a href="contact.html"><img src="image/contact.png" /></a></div>
+
+<div class="nav">
+  <ul>
+    <li><a href="#slide1">Temperate</a><br />
+    <li>
+    <li><a href="#slide2">Mountain</a><br />
+    </li>
+    <li><a href="#slide3">Sub-Humid</a><br />
+    </li>
+    <li><a href="#slide4">Coastal</a><br />
+    </li>
+    <li><a href="#slide5">Tropical</a><br />
+    </li>
+    <li><a href="#slide6">Desert</a></li>
+  </ul>
+</div>
+
+
+<div id="bottomborder"><img src="image/bottomborder.png" /></div>
+
+
+<section id="bhg">
+    		<img src="image/bhg-logo.png" />
+   	</section>
+
+
+<br><br>
+
+
+<div id='slider4' class='swipe'>
+  <div>
+    <div id="cimicifuga" style='display:block'>
+    	<div id="container">
+    	<section class="header"><p id="title">Cimicifuga</p><p class="subtitle">(Actaea Racemosa)</p></section>
+    	<img src="image/pic-cimicifuga.png" />
+        <section class="info">
+        <p>PERENNIAL - The perfect plant for adding summer drama to the shade garden, cimicifuga bears white, candle-like flowers on plants that can reach 7 feet tall. Even when not in bloom, its fine-textured foliage adds interest, especially when paired with hostas. This plant is native to areas of North America.</p></section>
+    </div></div>
+    
+    <div id="coneflower" style='display:none'><div>
+    	<div id="container">
+    	<section id="header"><p id="title">Coneflower</p><p id="subtitle">(Echineca Purpurea)</p></section>
+    	<img src="image/pic-coneflower.png" />
+        <section id="info">
+        <p>PERENNIAL - Purple coneflower is so easy to grow and attractive and draws so many birds and butterflies that you simply must grow it, if you have the room. Valued for its large sturdy daisylike flowers with dropping petals, this prairie native will spread easily in good soil and full sun. It is bothered by few pests or diseases. It's a great cut flower -- bring in armloads of it to brighten the house. And birds and butterflies love it. Allow it to spread so that you have at least a small stand of it. Let the flowers go to seed and the goldfinches will love you, coming to feast on the seeds daily. Butterflies and helpful bees also love purple coneflower.<br />
+It used to be that rosy purple or white were the only choices in flower color. Recent hybrids have introduced yellow, orange, burgundy, cream, and shades in between.</p></section>
+    </div>
+    </div></div>
+    
+    <div id="daylily" style='display:none'><div>
+    	<div id="container">
+    	<section id="header"><p id="title">Day Lily</p><p id="subtitle">(Hemerocallis)</p></section>
+    	<img src="image/pic-daylily.png" />
+        <section id="info">
+        <p>BULB - Wearing some of the brightest petals in the flower kingdom and some of the most potent perfumes, lilies spill out their charms from early summer to early fall. To stage a lily show all summer, grow some of each type, including Asiatic, the enticingly fragrant Oriental and longiflora hybrids, and some of the species lilies in special situations such as under trees or in rock gardens.<br />
+Lilies will naturalize and spread freely in light, fertile soils. They require good drainage to flourish. On the East Coast, bright red lily beetles are becoming a problem. Treat the soil around the plants to control larvae, or pick the adult beetles off blooms to prevent damaged petals.</p></section>
+    </div>
+    
+    </div></div>
+    
+    <div id="slide4" style='display:none'><div>
+    <h2>Coastal</h2>
+
+    </div></div>
+    
+    <div id="slide5" style='display:none'><div>
+    <h2>Tropical</h2>
+
+    </div></div>
+    
+    <div id="slide6" style='display:none'><div>
+    <h2>Desert</h2>
+
+    </div></div>
+    
+    <div id="slide6" style='display:none'><div>
+    <h2>Desert</h2>
+
+    </div></div>
+    
+    <div id="slide6" style='display:none'><div>
+    <h2>Desert</h2>
+
+    </div></div>
+    
+    <div id="slide6" style='display:none'><div>
+    <h2>Desert</h2>
+
+    </div></div>
+    
+    <div id="slide6" style='display:none'><div>
+    <h2>Desert</h2>
+
+    </div></div>
+    
+  </div>
+</div>
+
+<br><br>
+
+
+<script src="js/swipe.js"></script>
+<script>
+
+		$(function() {
+		   var toggleState = true;
+		   $('#kits').on("click", function() {
+			  if(toggleState) {
+				 $('.nav').stop(true).animate({ 'margin-top': 200, 'opacity': '0.8' }, { queue: false, duration: 300 });
+			  } else {
+				$('.nav').stop(true).animate({ 'margin-top': 500, 'opacity': '0' }, { queue: false, duration: 300 });
+			  }
+			  toggleState = !toggleState;
+			});
+		});
+<!--END SlideToggle-->
+
+<!-- Easing-->
+            $(function() {
+                $('div#header a').bind('click',function(event){
+                    var $anchor = $(this);
+                    
+                    $('html, body').stop().animate({
+                        scrollLeft: $($anchor.attr('href')).offset().left-60
+                    }, 1500,'easeInOutExpo');
+                   
+                    event.preventDefault();
+                });
+            });
+<!--END Easing-->
+
+
+
+
+new Swipe(document.getElementById('slider'));
+new Swipe(document.getElementById('slider2'));
+var slider3 = new Swipe(document.getElementById('slider3'));
+var slider4 = new Swipe(document.getElementById('slider4'));
+</script>
+
+</body>
+</html>
