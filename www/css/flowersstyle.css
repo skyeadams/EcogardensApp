@@ -4,11 +4,11 @@
 @media only screen and (max-width: 479px){
 @font-face {
     font-family: 'hagin_caps_mediumregular';
-    src: url('../../fonts/hagin_caps_medium-webfont.eot');
-    src: url('../../fonts/hagin_caps_medium-webfont.eot?#iefix') format('embedded-opentype'),
-url('../../fonts/hagin_caps_medium-webfont.woff') format('woff'),
-url('../../fonts/hagin_caps_medium-webfont.ttf') format('truetype'),
-url('../../fonts/hagin_caps_medium-webfont.svg#hagin_caps_mediumregular') format('svg');
+    src: url('../fonts/hagin_caps_medium-webfont.eot');
+    src: url('../fonts/hagin_caps_medium-webfont.eot?#iefix') format('embedded-opentype'),
+url('../fonts/hagin_caps_medium-webfont.woff') format('woff'),
+url('../fonts/hagin_caps_medium-webfont.ttf') format('truetype'),
+url('../fonts/hagin_caps_medium-webfont.svg#hagin_caps_mediumregular') format('svg');
     font-weight: normal;
     font-style: normal;
 	}
@@ -16,11 +16,11 @@ url('../../fonts/hagin_caps_medium-webfont.svg#hagin_caps_mediumregular') format
 		
 	@font-face {
 		font-family: 'bodoniflfregular';
-		src: url('../../fonts/bodoniflf-roman-webfont.eot');
-		src: url('../../fonts/bodoniflf-roman-webfont.eot?#iefix') format('embedded-opentype'),
-url('../../fonts/bodoniflf-roman-webfont.woff') format('woff'),
-url('../../fonts/bodoniflf-roman-webfont.ttf') format('truetype'),
-url('../../fonts/bodoniflf-roman-webfont.svg#bodoniflfregular') format('svg');
+		src: url('../fonts/bodoniflf-roman-webfont.eot');
+		src: url('../fonts/bodoniflf-roman-webfont.eot?#iefix') format('embedded-opentype'),
+url('../fonts/bodoniflf-roman-webfont.woff') format('woff'),
+url('../fonts/bodoniflf-roman-webfont.ttf') format('truetype'),
+url('../fonts/bodoniflf-roman-webfont.svg#bodoniflfregular') format('svg');
 		font-weight: normal;
 		font-style: normal;
 	
@@ -33,7 +33,7 @@ body{
 	background-attachment:fixed;
 	font-family: 'bodoniflfregular';
 	color: white;	
-	height:450px;
+	height:430px;
 	width:;
 }
 
@@ -154,80 +154,25 @@ h3{
 	font-size:14px;	
 }
 
-#lavender{
-	
+#hensnchicks .subtitle{
+	left:130px;
 }
 
-#primrose{
-	
+#hydrangea .subtitle{
+	left:130px;	
 }
 
-#salvia{
-	
+#obedient .subtitle{
+	left:130px;
 }
 
-#cimicifuga{
-	
+#skyvine .subtitle{
+	left:130px;
 }
 
-#hosta{
-
-}
-
-#hydrangea{
-
-}
-
-#marigold{
-}
-
-#yarrow{
-
-}
-
-#rhubarb{
-
-}
-
-#pitcher{
-	
-}
-
-#serviceberry{
-	
-}
-
-#sunflower{
-	
-	
-}
-
-#coneflower{
-	
-}
-
-#willow{
-
-}
-
-#fouroclock{
-	
-}
-
-#daylily{
-	
-}
-
-#skyvine{
-	
-	
-}
-
-#yucca{
-	
-	
-}
-
+#rhubarb .subtitle{
+	left:135px;
+}	
 
 #prev{
 	position: absolute;
@@ -252,7 +197,7 @@ h3{
 	height: 20px;	
 	}
 
-.title{
+.title p{
 	font-family: 'hagin_caps_mediumregular';
 	font-size:20px;
 }
@@ -260,7 +205,7 @@ h3{
 	position:relative;
 	float: left;	
 	top: -20px;
-	left: 114px;
+	left: 145px;
 }
 
 #container{
