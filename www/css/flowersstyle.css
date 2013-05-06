@@ -33,7 +33,7 @@ body{
 	background-attachment:fixed;
 	font-family: 'bodoniflfregular';
 	color: white;	
-	height:430px;
+	height:450px;
 	width:;
 }
 
@@ -41,7 +41,7 @@ body{
 	position: fixed;
 	width: 320px;
 	height: 35px;
-	top: 425px;
+	top: 445px;
 	z-index: 1000;
 }
 #bottomborder img{	
@@ -55,7 +55,7 @@ body{
 .navlinks{
 	position:fixed;
 	float: left;
-	top: 430px;
+	top: 450px;
 	z-index: 1001;
 }
 
