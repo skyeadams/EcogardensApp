@@ -35,7 +35,7 @@ h1{
 
 
 body{
-	height: 400px;
+	height: 480px;
 	width: 320px;
 	background-image:url(../image/background-kits.png);
 	background-repeat:no-repeat;	
@@ -61,7 +61,7 @@ body{
 	position: fixed;
 	width: 320px;
 	height: 35px;
-	top: 425px;
+	top: 445px;
 	z-index: 1000;
 }
 #bottomborder img{	
@@ -92,7 +92,7 @@ body{
 .navlinks{
 	position:fixed;
 	float: left;
-	top: 430px;
+	top: 450px;
 	z-index: 1001;
 }
 
@@ -153,10 +153,9 @@ body{
   -webkit-backface-visibility: hidden;
 }
 .swipe li div, .swipe div div div {
-  height: 430px;
+  height: 440px;
   width: 315px;
   margin-left:5px;
-  height: 440px;
   overflow-y: scroll;
   margin-top: 30px;
   font-weight:bold;
@@ -180,7 +179,7 @@ body{
 
 
 #slider4{
-	height: 420px;
+	height: 450px;
 	margin-top: 10px;
 }
 

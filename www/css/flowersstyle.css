@@ -31,10 +31,9 @@ url('../../fonts/bodoniflf-roman-webfont.svg#bodoniflfregular') format('svg');
 body{
 	background-image:url(../image/background-kits.png);
 	background-attachment:fixed;
-	background-repeat:repeat-x;
 	font-family: 'bodoniflfregular';
 	color: white;	
-	height:;
+	height:450px;
 	width:;
 }
 
