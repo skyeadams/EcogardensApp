@@ -116,7 +116,7 @@ body{
   -webkit-backface-visibility: hidden;
 }
 .swipe li div, .swipe div div div {
-  height: 410px;
+  height: 390px;
   width: 290px;
   margin-left:5px;
   margin-top: 0px;

@@ -96,9 +96,9 @@
 	
 	#contentbox img{
 		position:absolute;
-		left: 35px;	
+		left: 20px;	
 		top: 30px;
-		height: 250px;
+		height: 280px;
 		
 	}
 	
@@ -115,7 +115,7 @@
 	#logo img{
 		float: left;
 		position:absolute;
-		width: 200px;	
+		width: 210px;	
 		padding-left: 25px;
 		padding-top:20px;
 		
@@ -125,15 +125,15 @@
 		float: left;
 		position:absolute;
 		color:#fff;
-		left: 65px;
-		top: 200px;
-		font-size:13px;
+		left: 60px;
+		top: 230px;
+		font-size:14px;
 		text-align:center;
 	}
 	
 	#moreinfo img{
 		position:absolute;
-		top: 210px;
+		top: 240px;
 		left: 150px;
 		float: left;
 		height:20px;
