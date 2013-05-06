@@ -31,6 +31,7 @@ url('../../fonts/bodoniflf-roman-webfont.svg#bodoniflfregular') format('svg');
 body{
 	background-image:url(../image/background-kits.png);
 	background-attachment:fixed;
+	background-repeat:repeat-x;
 	font-family: 'bodoniflfregular';
 	color: white;	
 	height:;
@@ -116,12 +117,10 @@ body{
   -webkit-backface-visibility: hidden;
 }
 .swipe li div, .swipe div div div {
-  height: 430px;
-  width: 315px;
+  height: 410px;
+  width: 290px;
   margin-left:5px;
-  height: 440px;
-  overflow-y: scroll;
-  margin-top: 30px;
+  margin-top: 0px;
   font-weight:bold;
   color:#fff;
   font-size:20px;
@@ -169,152 +168,71 @@ h3{
 }
 
 #cimicifuga{
-	margin-top:-20px;
+	
 }
 
 #hosta{
-	background-image:url(../../image/bg-hosta.png);
-	height: 100px;
-	width:290px;
-	margin-top:0px;
-	border-style:solid;
-	border-width:1px;
-	border-color:#000000;
+
 }
 
 #hydrangea{
-	background-image:url(../../image/bg-hydrangea.png);
-	height: 100px;
-	width:290px;
-	margin-top:0px;
-	border-style:solid;
-	border-width:1px;
-	border-color:#000000;
+
 }
 
 #marigold{
-	background-image:url(../../image/bg-marigold.png);
-	height: 100px;
-	width:290px;
-	margin-top:0px;
-	border-style:solid;
-	border-width:1px;
-	border-color:#000000;
 }
 
 #yarrow{
-	background-image:url(../../image/bg-yarrow.png);
-	height: 100px;
-	width:290px;
-	margin-top:0px;
-	border-style:solid;
-	border-width:1px;
-	border-color:#000000;
+
 }
 
 #rhubarb{
-	background-image:url(../../image/bg-rhubarb.png);
-	height: 100px;
-	width:290px;
-	margin-top:0px;
-	border-style:solid;
-	border-width:1px;
-	border-color:#000000;
+
 }
 
 #pitcher{
-	background-image:url(../../image/bg-pitcher.png);
-	height: 100px;
-	width:290px;
-	margin-top:0px;
-	border-style:solid;
-	border-width:1px;
-	border-color:#000000;
+	
 }
 
 #serviceberry{
-	background-image:url(../../image/bg-serviceberry.png);
-	height: 100px;
-	width:290px;
-	margin-top:0px;
-	border-style:solid;
-	border-width:1px;
-	border-color:#000000;
+	
 }
 
 #sunflower{
-	background-image:url(../../image/bg-sunflower.png);
-	height: 100px;
-	width:290px;
-	margin-top:0px;
-	border-style:solid;
-	border-width:1px;
-	border-color:#000000;
+	
+	
 }
 
 #coneflower{
-	background-image:url(../../image/bg-coneflower.png);
-	height: 100px;
-	width:290px;
-	margin-top:0px;
-	border-style:solid;
-	border-width:1px;
-	border-color:#000000;
+	
 }
 
 #willow{
-	background-image:url(../../image/bg-willow.png);
-	height: 100px;
-	width:290px;
-	margin-top:0px;
-	border-style:solid;
-	border-width:1px;
-	border-color:#000000;
+
 }
 
 #fouroclock{
-	background-image:url(../../image/bg-fouroclock.png);
-	height: 100px;
-	width:290px;
-	margin-top:0px;
-	border-style:solid;
-	border-width:1px;
-	border-color:#000000;
+	
 }
 
 #daylily{
-	background-image:url(../../image/bg-daylily.png);
-	height: 100px;
-	width:290px;
-	margin-top:0px;
-	border-style:solid;
-	border-width:1px;
-	border-color:#000000;
+	
 }
 
 #skyvine{
-	background-image:url(../../image/bg-skyvine.png);
-	height: 100px;
-	width:290px;
-	margin-top:0px;
-	border-style:solid;
-	border-width:1px;
-	border-color:#000000;
+	
+	
 }
 
 #yucca{
-	background-image:url(../../image/bg-yucca.png);
-	height: 100px;
-	width:290px;
-	margin-top:0px;
-	border-style:solid;
-	border-width:1px;
-	border-color:#000000;
+	
+	
 }
 
 
 #prev{
-	position: fixed;
+	position: absolute;
+	float: left;
 	top: 5px;	
 	left: 70px;
 }
@@ -322,25 +240,27 @@ h3{
 	height: 20px;	
 }
 #next{
-	position: fixed;
-	top: 5px;	
+	position: absolute;
+	float: left;
+	top: 5px;
 	left: 210px;
 }
 #next img{
 	height: 20px;	
 }
 
-
+.header{
+	height: 20px;	
+	}
 
 .title{
 	font-family: 'hagin_caps_mediumregular';
 	font-size:20px;
-	margin-bottom: 5px;
 }
 .subtitle{
-	position: absolute;
+	position:relative;
 	float: left;	
-	top: 40px;
+	top: -20px;
 	left: 114px;
 }
 
@@ -353,6 +273,7 @@ h3{
 	font-size:14px;
 	line-height:20px;
 	text-align:left;
+	
 }
 
 #container h3{
@@ -367,21 +288,23 @@ container h6{
 #container img{
 	height: 150px;
 	width:280px;
-	margin-bottom: 5px;	
+	margin-left:-10px;
+	margin-bottom: 10px;	
+	
 }
-#info{
+.info{
 	width: 280px;	
-	height: 200px;
-	overflow:scroll;
+	height: 180px;
+	overflow-y:scroll;
 }
 	
 	#bhg{
 	position: absolute;
 	float: left;
 	margin-left: 200px;
-	margin-top:-8px;	
+	margin-top:5px;	
 }
 #bhg img{
-	height: 40px;
-	width: 90px;
+	height: 30px;
+	width: 80px;
 }
