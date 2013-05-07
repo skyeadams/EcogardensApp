@@ -110,7 +110,7 @@ body{
 
 
 .swipe {
-  padding-bottom:20px;
+  padding-bottom:;
   position:relative;
   -webkit-perspective: 1000;
   -webkit-backface-visibility: hidden;

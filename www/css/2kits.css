@@ -38,7 +38,7 @@ body{
 	height: 480px;
 	width: 320px;
 	background-image:url(../image/background-kits.png);
-	background-repeat:no-repeat;	
+	background-repeat:repeat-y;	
 	overflow: hidden;
 }
 

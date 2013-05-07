@@ -163,15 +163,19 @@ body {
 #ecogardenslink {
 	position: absolute;
 	top: 370px;
-	left: 15px
+	left: 5px
 }
+
+#ecogardenslink img {
+	width: 200px;
+	}
 
 
 
 
 #contact-form{
 	position: absolute;
-	top: 180px;	
+	top: 80px;	
 	color: white;
 }
 
@@ -189,6 +193,7 @@ input{
 textarea{
 	border: none;
 	width: 200px;
+	height: 130px;
 	padding: 5px;
 	background-color:#000000;
 	color:#FFFFFF;	
@@ -197,6 +202,8 @@ textarea{
 
 #submit-button{
 	margin-top: 10px;
+	
+	width: 50px;
 }
 
 
