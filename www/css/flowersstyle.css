@@ -29,12 +29,17 @@ url('../fonts/bodoniflf-roman-webfont.svg#bodoniflfregular') format('svg');
 
 
 body{
-	background-image:url(../image/background-kits.png);
-	background-attachment:fixed;
 	font-family: 'bodoniflfregular';
+	background-color:#000000;
 	color: white;	
-	height:410px;
+	height:400px;
 	width:;
+}
+
+#pagewrap{
+		background-image:url(../image/background-kits.png);
+	background-attachment:fixed;
+	height: 480px;
 }
 
 #bottomborder{	
@@ -144,7 +149,7 @@ body{
 
 
 #slider4{
-	height: 420px;
+	height: 400px;
 	margin-top: 10px;
 }
 /*KITS*/
