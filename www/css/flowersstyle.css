@@ -204,19 +204,19 @@ h3{
 }
 .info{
 	width: 280px;	
-	height: 180px;
+	height: 220px;
 	overflow-y:scroll;
 }
 	
 	#bhg{
 	position: absolute;
 	float: left;
-	margin-left: 200px;
-	top:10px;	
+	margin-left: 240px;
+	top:430px;	
 }
 #bhg img{
-	height: 30px;
-	width: 80px;
+	height: 20px;
+	width: 55px;
 }
 
 #astilbe{
