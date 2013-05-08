@@ -37,9 +37,15 @@ h1{
 body{
 	height: 480px;
 	width: 320px;
+	background-color:#000000;
 	background-image:url(../image/background-kits.png);
-	background-repeat:repeat-y;	
+	background-repeat:no-repeat;
 	overflow: hidden;
+}
+
+#pagewrap{
+
+		
 }
 
 #topborder{
