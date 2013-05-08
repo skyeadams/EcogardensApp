@@ -28,6 +28,8 @@ url('../fonts/bodoniflf-roman-webfont.svg#bodoniflfregular') format('svg');
 	
 
 
+
+
 body{
 	font-family: 'bodoniflfregular';
 	background-color:#000000;
@@ -82,8 +84,6 @@ body{
 	left: 200px;
 	
 }
-
-
 
 
 .nav{
@@ -141,16 +141,11 @@ body{
 }
 
 
-.swipe h2{
-	margin-top: -23px;	
-	margin-bottom: 15px;
-	margin-left:-10px;
-}
 
 
 #slider4{
 	height: 400px;
-	margin-top: 10px;
+	margin-top:-15px;
 }
 /*KITS*/
 
@@ -160,42 +155,25 @@ a{
 
 h3{
 	font-size:14px;	
+	
 }
 
 
-#prev{
-	position: absolute;
-	float: left;
-	top: 5px;	
-	left: 20px;
-}
-#prev img{
-	height: 20px;	
-}
-#next{
-	position: absolute;
-	float: left;
-	top: 5px;
-	left: 70px;
-}
-#next img{
-	height: 20px;	
-}
+
 
 .header{
-	height: 20px;	
+	position: absolute;
+	height: 50px;	
+	margin-top:0px;
+	
 	}
 
 .header p{
 	font-family: 'hagin_caps_mediumregular';
 	font-size:20px;
+	margin-top:-10px;
 }
-.subtitle{
-	position:relative;
-	float: left;	
-	top: -20px;
-	left: 145px;
-}
+
 
 #container{
 	padding-left: 10px;
@@ -206,24 +184,23 @@ h3{
 	font-size:14px;
 	line-height:20px;
 	text-align:left;
+	margin-top:10px;
 	
 }
 
-#container h3{
-	font-family: 'hagin_caps_mediumregular';
-	margin-bottom: 0px;	
-}
-container h6{
-	font-family: 'hagin_caps_mediumregular';
-	float: left;	
-}
+
 
 #container img{
 	height: 150px;
 	width:280px;
 	margin-left:-10px;
-	margin-bottom: 10px;	
+	margin-top:30px;
+	margin-bottom: px;	
 	
+}
+
+#container h3{
+	top:0px;	
 }
 .info{
 	width: 280px;	
@@ -235,7 +212,7 @@ container h6{
 	position: absolute;
 	float: left;
 	margin-left: 200px;
-	margin-top:5px;	
+	top:10px;	
 }
 #bhg img{
 	height: 30px;
