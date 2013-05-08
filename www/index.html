@@ -72,8 +72,19 @@
         
         </div> <!--endcontainer-->
       
+      <script type="text/javascript">
+      	$('#moreinfo').click(function () {
+            $('html, body').animate({scrollTop:$(document).height()}, 'slow');
+            return false;
+        });
+        
+        $('#navigation').click(function () {
+            $('html, body').animate({scrollTop:0}, 'slow');
+            return false;
+        });
+      </script>
       
-      	 <script type="text/javascript">
+      	<!-- <script type="text/javascript">
             $(function() {
                 $('div#moreinfo a').bind('click',function(event){
                     var $anchor = $(this);
@@ -99,7 +110,9 @@
                     event.preventDefault();
                 });
             });
-        </script>
+        </script>-->
+        
+        
       
 
     </body>
