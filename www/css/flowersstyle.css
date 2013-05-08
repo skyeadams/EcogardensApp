@@ -33,7 +33,7 @@ body{
 	background-attachment:fixed;
 	font-family: 'bodoniflfregular';
 	color: white;	
-	height:450px;
+	height:430px;
 	width:;
 }
 
@@ -157,25 +157,6 @@ h3{
 	font-size:14px;	
 }
 
-#hensnchicks .subtitle{
-	left:130px;
-}
-
-#hydrangea .subtitle{
-	left:130px;	
-}
-
-#obedient .subtitle{
-	left:130px;
-}
-
-#skyvine .subtitle{
-	left:130px;
-}
-
-#rhubarb .subtitle{
-	left:135px;
-}	
 
 #prev{
 	position: absolute;
@@ -200,7 +181,7 @@ h3{
 	height: 20px;	
 	}
 
-.title p{
+.header p{
 	font-family: 'hagin_caps_mediumregular';
 	font-size:20px;
 }
