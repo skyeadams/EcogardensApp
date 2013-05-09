@@ -22,6 +22,7 @@
 	<preference name="show-splash-screen-spinner" value="true" />
 	<preference name="webviewbounce"              value="false" />
 	<preference name="exit-on-suspend"            value="true" />  
+	<preference name="stay-in-webview"            value="true" />
 
     <icon src="icon.png" />
     
