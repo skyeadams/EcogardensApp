@@ -52,12 +52,12 @@ body {
 #bottomborder {
 	position: fixed;
 	width: 320px;
-	height: 35px;
-	top: 445px;
+	height: 80px;
+	top: 435px;
 }
 #bottomborder img {
 	width: 320px;
-	height: 35px;
+	height: 50px;
 }
 #prev {
 	position: fixed;
@@ -78,21 +78,21 @@ body {
 .navlinks {
 	position:fixed;
 	float: left;
-	top: 450px;
+	top: 440px;
 	z-index: 1001;
 }
 .navlinks a img {
-	height: 25px;
-	width: 25px;
+	height: 40px;
+	width: 40px;
 }
 #home {
-	left: 100px;
+	left: 80px;
 }
 #kits {
 	left: 150px;
 }
 #contact {
-	left: 200px;
+	left: 220px;
 }
 .nav {
 	font-family: 'hagin_caps_mediumregular';
