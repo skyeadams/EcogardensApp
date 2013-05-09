@@ -32,6 +32,8 @@ h2{
 body {
 	height: 480px;
 	width: 320px;
+	
+	background-color:black;
 	background-image:url(../image/background-contact.png);
 	background-repeat:no-repeat;
 }
@@ -98,7 +100,7 @@ body {
 	background-color:#000000;
 	opacity: 0.8;
 	width: 260px;
-	height: 260px;
+	height: 280px;
 	margin-left: 30px;
 	margin-top:500px;
 	z-index:1000;
@@ -117,6 +119,11 @@ body {
 	margin-top: 15px;
 	text-align:center;
 }
+
+.nav li{
+	margin-top:5px;	
+}
+
 #slider {
 	width:5000px;
 }
@@ -203,7 +210,7 @@ textarea{
 #submit-button{
 	margin-top: 10px;
 	
-	width: 50px;
+	width: 100px;
 }
 
 
