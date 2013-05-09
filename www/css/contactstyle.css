@@ -52,12 +52,13 @@ body {
 #bottomborder {
 	position: fixed;
 	width: 320px;
-	height: 80px;
-	top: 435px;
+	height: 90px;
+	top: 425px;
+	
 }
 #bottomborder img {
 	width: 320px;
-	height: 50px;
+	height: 60px;
 }
 #prev {
 	position: fixed;
@@ -86,10 +87,10 @@ body {
 	width: 40px;
 }
 #home {
-	left: 80px;
+	left: 60px;
 }
 #kits {
-	left: 150px;
+	left: 140px;
 }
 #contact {
 	left: 220px;

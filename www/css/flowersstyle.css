@@ -47,13 +47,13 @@ body{
 #bottomborder{	
 	position: fixed;
 	width: 320px;
-	height: 80px;
-	top: 435px;
+	height: 90px;
+	top: 425px;
 	z-index: 1000;
 }
 #bottomborder img{	
 	width: 330px;
-	height: 50px;
+	height: 60px;
 }
 
 
@@ -72,11 +72,11 @@ body{
 }
 
 #home{
-	left: 80px;
+	left: 60px;
 }
 
 #kits{
-	left: 150px;
+	left: 140px;
 	
 }
 
@@ -211,12 +211,14 @@ h3{
 	#bhg{
 	position: absolute;
 	float: left;
-	margin-left: 240px;
-	top:430px;	
+	margin-left: 260px;
+	top:450px;	
+	z-index:1002;
 }
 #bhg img{
 	height: 20px;
 	width: 55px;
+	opacity: 0.5;
 }
 
 #astilbe{

@@ -65,13 +65,13 @@ body{
 #bottomborder{	
 	position: fixed;
 	width: 320px;
-	height: 50px;
-	top: 435px;
+	height: 90px;
+	top: 425px;
 	z-index: 1000;
 }
 #bottomborder img{	
 	width: 320px;
-	height: 50px;
+	height: 60px;
 }
 
 
@@ -107,11 +107,11 @@ body{
 }
 
 #home{
-	left: 80px;
+	left: 60px;
 }
 
 #kits{
-	left: 150px;
+	left: 140px;
 	
 }
 
