@@ -17,7 +17,7 @@
 
     <preference name="phonegap-version" value="2.1.0" />
     <preference name="orientation"      value="portrait" />
-    <preference name="target-device"    value="universal" />
+    <preference name="target-device"    value="handset" />
     <preference name="fullscreen"       value="true" />
 	<preference name="show-splash-screen-spinner" value="true" />
 	<preference name="webviewbounce"              value="false" />
